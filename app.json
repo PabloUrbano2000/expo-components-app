@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "component-app",
+    "name": "Componentes RN",
     "slug": "component-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pablourban2000.componentapp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "8f5632bd-66ca-46f9-93b1-022bffa7270a"
+      }
     }
   }
 }

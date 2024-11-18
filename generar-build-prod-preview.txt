@@ -1,0 +1,34 @@
+# Para generar los builds
+
+https://docs.expo.dev/build/setup/
+
+// debemos tener instalado a nivel de SO eas-cli
+npm install -g eas-cli
+
+// debemos estar logueados de no estarlo loguearlo
+eas login
+
+// Generar archivo de configuraciones
+eas build:configure
+
+
+# android
+https://docs.expo.dev/submit/android/
+
+// Generar preview de android (APK)
+eas build --platform android --profile preview
+
+// Genera build de producción
+eas build --platform android
+
+// Debemos tener una cuenta de developer de google
+https://play.google.com/apps/publish/signup/
+
+... A PARTIR DE ACA REPETIR TUTORIAL
+
+
+
+# IOS
+
+// generamos el build (bundle indentifier)
+eas build --platform IOS
